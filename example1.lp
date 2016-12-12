@@ -7,7 +7,7 @@
 &lp{-"4"*x; "4"*y} <= "5".
 &lp{"1"*x} >= "4000" :- a.
 
-% dom(x;y,0,inf) wird per default angenommen
+% dom(x;y,0,inf) is assumed by default
 %&dom{(x,"0","1")}.
 
 &objective(max){-"1"*x:b; "2"*y:b; "1"*x: not b; -"2"*y: not b}.
